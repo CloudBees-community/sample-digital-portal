@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>portal</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot Branch</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
