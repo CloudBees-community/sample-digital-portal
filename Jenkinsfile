@@ -3,7 +3,6 @@ node {
         checkout scm
         sh 'echo "pwd: $(pwd)"'
         sh 'env'
-        sh 'ls -al $WORKSPACE'
-        sh "./mvnw clean package"
+        sh "./mvnw --batch-mode --show-version clean package"
     }
 }
